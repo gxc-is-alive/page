@@ -1,0 +1,286 @@
+﻿<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]>
+<!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>PALLAS</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	
+	
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="css/base.css"/>
+	<link rel="stylesheet" href="css/skeleton.css"/>
+	<link rel="stylesheet" href="css/layout.css"/>
+	<link rel="stylesheet" href="css/font-awesome.css" />
+	<link rel="stylesheet" href="css/retina.css"/>
+	<link rel="stylesheet" href="css/animsition.min.css"/>
+	
+
+		
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png">
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
+	
+	
+	
+</head>
+<body>
+
+	<div class="animsition">	
+	
+	<!-- MENU
+    ================================================== -->	
+
+		<div id="menu-wrap" class="menu-back cbp-af-header">
+			<div class="container">
+				<div class="sixteen columns">
+					<div class="logo"></div>
+					<ul class="slimmenu">
+						<li>
+							<a href="#">homepages</a>
+							<ul class="submenu-back">
+								<li> 
+									<a href="index.html" class="animsition-link">background image</a>
+								</li>
+								<li>
+									<a href="index2.html" class="animsition-link">background slider</a>
+								</li>
+								<li>
+									<a href="index3.html" class="animsition-link">text slider</a>
+								</li>
+								<li>
+									<a href="index4.html" class="animsition-link">html5 video</a>
+								</li>
+								<li>
+									<a href="index5.html" class="animsition-link">youtube video</a>
+								</li>
+								<li>
+									<a href="index6.html" class="animsition-link">moving image</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="about.html" class="animsition-link">about</a>
+						</li>
+						<li>
+							<a href="#">portfolio</a>
+							<ul class="submenu-back">
+								<li> 
+									<a href="work.html" class="animsition-link">Featured fourths</a>
+								</li>
+								<li>
+									<a href="work1.html" class="animsition-link">No Spaced fourths</a>
+								</li>
+								<li>
+									<a href="work2.html" class="animsition-link">Classic Grid</a>
+								</li>
+								<li>
+									<a href="work3.html" class="animsition-link">Two Halfs</a>
+								</li>
+								<li>
+									<a href="work4.html" class="animsition-link">Lightbox Gallery</a>
+								</li>
+							</ul>
+						</li>
+						<li> 
+							<a href="blog.html" class="animsition-link">jurnal</a>
+						</li>
+						<li>
+							<a class="active-menu" href="#">hello</a>
+							<ul class="submenu-back">
+								<li> 
+									<a class="active-menu animsition-link" href="contact.html">default</a>
+								</li>
+								<li>
+									<a href="contact1.html" class="animsition-link">minimal</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="shortcodes.html">shortcodes</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>	
+		
+	<!-- Primary Page Layout
+	================================================== -->
+
+	<section class="cd-section">
+		<div class="cd-block">
+			<div class="contact-top">
+			
+				<div id="cd-google-map">
+					<div id="google-container"></div>
+					<div id="cd-zoom-in"></div>
+					<div id="cd-zoom-out"></div>
+					<address>86-90 Kralja Milutina<br>Belgrade 11000</address> 
+				</div>	
+				
+				<a href="#scroll-link" class="scroll scroll-down"></a>
+				
+			</div>
+		</div>
+	</section> <!-- .cd-section --> 
+
+	<section class="section white-background padding-top-bottom shadow-sec" id="scroll-link">
+		<div class="container">
+			<div class="sixteen columns">
+				<div class="section-header-text">
+					<h4>Get in touch<span>.</span></h4> 
+					<p>Don’t hesitate to contact us.</p> 
+					<div class="line-header"></div>
+				</div>
+			</div>
+				
+				<div class="clear"></div>
+					
+				<form name="ajax-form" id="ajax-form" action="mail-it.php" method="post">
+					<div class="eight columns" data-scroll-reveal="enter bottom move 100px over 0.6s after 0.2s">
+						<label for="name"> 
+							<span class="error" id="err-name">please enter name</span>
+						</label>
+						<input name="name" id="name" type="text"   placeholder="Your Name: *"/>
+					</div>
+					<div class="eight columns" data-scroll-reveal="enter bottom move 100px over 0.6s after 0.2s">
+						<label for="email"> 
+							<span class="error" id="err-email">please enter e-mail</span>
+							<span class="error" id="err-emailvld">e-mail is not a valid format</span>
+						</label>
+						<input name="email" id="email" type="text"  placeholder="E-Mail: *"/>
+					</div>
+					<div class="sixteen columns" data-scroll-reveal="enter bottom move 100px over 0.6s after 0.2s">
+						<label for="message"></label>
+						<textarea name="message" id="message" placeholder="Tell Us Everything"></textarea>
+					</div>
+					<div class="sixteen columns" data-scroll-reveal="enter bottom move 100px over 0.6s after 0.2s">
+						<div id="button-con"><button class="send_message" id="send"><span data-hover="submit">submit</span></button></div>					
+					</div>
+					<div class="clear"></div>	
+					<div class="error text-align-center" id="err-form">There was a problem validating the form please check!</div>
+					<div class="error text-align-center" id="err-timedout">The connection to the server timed out!</div>
+					<div class="error" id="err-state"></div>
+				</form>	
+					
+				<div class="clear"></div>
+				<div id="ajaxsuccess">Successfully sent!!</div>
+				<div class="clear"></div>
+					
+		</div>
+	</section>
+
+	<section class="section white-background padding-bottom hidden-sec">
+		<div class="container">
+			<div class="one-third column">
+				<div class="contact-details">
+					<p><span>&#xf1d8;</span> Email:</p> 
+					<h6>office@pallas.com</h6>
+				</div>
+			</div>
+			<div class="one-third column">
+				<div class="contact-details">
+					<p><span>&#xf095;</span> Phone:</p>
+					<h6>0120 (381) 234-294</h6>
+				</div>
+			</div>
+			<div class="one-third column">
+				<div class="contact-details">
+					<p><span>&#xf041;</span> Address:</p>
+					<h6>86-90 Milutina, BG 11000</h6>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<footer class="footer no-shadow">
+		<div class="container">
+			<div class="sixteen columns">
+				<div class="footer-social">
+					<a href="#">twitter</a>
+					<a href="#">github</a>
+					<a href="#">facebook</a>
+					<a href="#">google +</a>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="sixteen columns">
+				<div class="footer-copy-text">
+					<p>© We are Pallas. All rights reserved. 2015</p>
+					<p>Made by IG Design in Kraljevo, Serbia</p>
+				</div>
+			</div>
+		</div>
+	</footer> 	
+		
+	</div>	
+
+		
+	<!-- JAVASCRIPT
+    ================================================== -->
+<script type="text/javascript" src="js/jquery.js"></script>	
+<script type="text/javascript" src="js/modernizr.custom.js"></script> 
+<script type="text/javascript" src="js/jquery.animsition.min.js"></script>
+<script type="text/javascript">
+(function($) { "use strict";
+	$(document).ready(function() {
+	  
+	  $(".animsition").animsition({
+	  
+		inClass               :   'zoom-in-sm',
+		outClass              :   'zoom-out-sm',
+		inDuration            :    800,
+		outDuration           :    800,
+		linkElement           :   '.animsition-link', 
+		// e.g. linkElement   :   'a:not([target="_blank"]):not([href^=#])'
+		loading               :    true,
+		loadingParentElement  :   'body', //animsition wrapper element
+		loadingClass          :   'animsition-loading',
+		unSupportCss          : [ 'animation-duration',
+								  '-webkit-animation-duration',
+								  '-o-animation-duration'
+								],
+		//"unSupportCss" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser. 
+		//The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+		
+		overlay               :   false,
+		
+		overlayClass          :   'animsition-overlay-slide',
+		overlayParentElement  :   'body'
+	  });
+	});  
+})(jQuery);
+</script>
+<script type="text/javascript" src="js/jquery.easing.js"></script>
+<script type="text/javascript" src="js/retina-1.1.0.min.js"></script>
+<script type="text/javascript" src="js/classie.js"></script>
+<script type="text/javascript" src="js/cbpAnimatedHeader.min.js"></script>
+<script type="text/javascript" src="js/menu.js"></script> 	
+<script type="text/javascript" src="js/scroll.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvpnlHRidMIU374bKM5-sx8ruc01OvDjI"></script>
+	<!-- ==================
+		Go to this link to activated your google map API KEY https://developers.google.com/maps/documentation/javascript/tutorial#api_key 
+		your key replace in script link for google map after .../maps/api/js?key=HERE_YOUR_API_KEY
+		coordinates for map you can change in custom-contact1.js file 
+	================== -->	
+<script type="text/javascript" src="js/contact.js"></script>
+<script type="text/javascript" src="js/custom-contact1.js"></script>  	  
+<!-- End Document
+================================================== -->
+</body>
+</html>
