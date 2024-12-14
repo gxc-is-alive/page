@@ -1564,7 +1564,7 @@ a.scroll-down.scroll-yt {
 	position:relative;
 	width:100%;
 	text-align: center;
-	padding-bottom:50px;
+	/* padding-bottom:50px; */
 }
 #filter {
 	position:relative;
